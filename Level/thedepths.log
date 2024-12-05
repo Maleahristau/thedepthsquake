@@ -7,75 +7,100 @@ Input file: C:\Users\Kitte\Desktop\thedepthsquake\Level\thedepths-compile.map
 Output file: C:\Users\Kitte\Desktop\thedepthsquake\Level\thedepths.bsp
 
 INFO: using built-in palette.
-WARNING: No wad or _wad key exists in the worldmodel
-     1 entities
-     2 unique textures
-     7 texinfos
-    12 unique planes
+      106 entities
+        7 unique textures
+      373 texinfos
+    1,134 unique planes
 
-INFO: world extents calculated to 328 units
-    1 brushes
-    6 sides
+INFO: world extents calculated to 8392 units
+      169 brushes
+    1,105 sides
+      288 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    1 SOLID brushes
-    1 brushes total
-    6 visible sides
-INFO: calculating BSP for 1 brushes with 6 sides
-    1 brushes
-    6 visible faces
-    6 nodes
-    6 expensive split nodes
-    7 leaves
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
-    36 tree portals
-WARNING: No entities in empty space -- no filling performed (hull 0)
-    36 tree portals
-    6 sides visible
-    6 makefaces
-     6 player-occupiable leaves
-     6 clusters of leaves
-    12 vis portals
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
-     6 faces optimized through MWT
-    12 triangles computed from MWT
-    12 edges
-     6 faces
+    169 SOLID brushes
+    169 brushes total
+    1,105 visible sides
+INFO: calculating BSP for 169 brushes with 1105 sides
+      169 brushes
+    1,105 visible faces
+    4,810 nodes
+    3,919 expensive split nodes
+      891 mid-split nodes
+    4,811 leaves
+    1,804 EMPTY leafs
+    3,007 SOLID leafs
+    4,811 leafs total
+    36 max tree height
+    16 avg tree height
+    151 tiny portals
+    19,473 tree portals
+    553 outside leaves
+    0 detail filled leafs
+    169 brushes
+    754 visible faces
+    351 non-visible faces
+    2,739 nodes
+      724 non-visible nodes
+    2,739 expensive split nodes
+    2,740 leaves
+      778 EMPTY leafs
+    1,962 SOLID leafs
+    2,740 leafs total
+    53 max tree height
+    23 avg tree height
+    157 tiny portals
+    11,531 tree portals
+    178 outside leaves
+    0 detail filled leafs
+    157 tiny portals
+    11,531 tree portals
+WARNING: 2 sides not found (use -verbose to display)
+    2,958 sides visible
+    2,958 makefaces
+    1,127 merged
+    2,071 subdivided
+    1,392 nodes pruned
+    65 tiny portals
+      600 player-occupiable leaves
+      600 clusters of leaves
+    1,722 vis portals
+      748 SOLID leafs
+      600 EMPTY leafs
+    1,348 leafs total
+    52 max tree height
+    24 avg tree height
+     3,328 edges added by tjunctions
+     3,746 faces optimized through MWT
+    10,772 triangles computed from MWT
+       702 faces created via optimization of MWT triangles
+    10,104 edges
+     4,604 faces
 Processing hull 1...
-WARNING: No entities in empty space -- no filling performed (hull 1)
 Processing hull 2...
-WARNING: No entities in empty space -- no filling performed (hull 2)
 Writing thedepths.bsp as Quake BSP bsp29
 Wrote thedepths.bsp
 
 count   lump name    byte size 
       1 models               64
-     17 planes              340
-      8 vertexes             96
-      6 nodes               144
-      6 texinfos            240
-      6 faces               120
-     12 clipnodes            96
-      7 leafs               196
-      6 marksurfaces         12
-     13 edges                52
-     24 surfedges            96
-      2 textures             12
+   1011 planes            20220
+   5461 vertexes          65532
+   1347 nodes             32328
+    275 texinfos          11000
+   4604 faces             92080
+   1628 clipnodes         13024
+    601 leafs             16828
+   5033 marksurfaces      10066
+  10105 edges             40420
+  20136 surfedges         80544
+      7 textures         109032
         lightdata             0
         visdata               0
-        entdata              58
+        entdata            5699
 
-0.014s seconds elapsed
+1.368s seconds elapsed
 
 
