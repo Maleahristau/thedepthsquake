@@ -5,13 +5,21 @@ INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 img::ConvertTextures: WARNING: Texture  duplicated
 Loading extended texinfo flags from thedepths.texinfo.json...
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \.
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \s
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \e
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \q
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \p
+WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \p
 WARNING: entity at () (worldspawn) has empty key/value "" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 1" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 2" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 3" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 4" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 5" ""
-106 entities read, 60 are lights.
+WARNING: brush entity with mins [289 529 17] maxs [543 567 183] (func_door) has empty key/value "targetname" ""
+WARNING: brush entity with mins [3161 -63 17] maxs [3191 567 391] (func_door) has empty key/value "target" ""
+120 entities read, 72 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -19,21 +27,21 @@ WARNING: entity at () (worldspawn) has empty key/value "property 5" ""
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	4604 solid faces
+	4498 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 60 initial lights
-SetupLights: 60 after surface lights
-SetupLights: 60 after jittering
+SetupLights: 72 initial lights
+SetupLights: 72 after surface lights
+SetupLights: 72 after jittering
 WARNING: couldn't nudge light out of solid at 2816 272 360
-Final count: 60 lights, 0 suns in use.
+Final count: 72 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 89044
+lightmap size (total): 93068
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.262s seconds elapsed
+0.240s seconds elapsed
 0 empty lightmaps
 
 

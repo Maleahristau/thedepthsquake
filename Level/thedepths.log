@@ -7,100 +7,108 @@ Input file: C:\Users\Kitte\Desktop\thedepthsquake\Level\thedepths-compile.map
 Output file: C:\Users\Kitte\Desktop\thedepthsquake\Level\thedepths.bsp
 
 INFO: using built-in palette.
-      106 entities
-        7 unique textures
-      373 texinfos
-    1,134 unique planes
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \.
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \s
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \e
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \q
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \p
+WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \p
+fs::addArchive: WARNING: archive 'C:/Users/Kitte/Desktop/Quake/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
+      120 entities
+        8 unique textures
+      379 texinfos
+    1,138 unique planes
 
 INFO: world extents calculated to 8392 units
-      169 brushes
-    1,105 sides
+      170 brushes
+    1,111 sides
       288 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    169 SOLID brushes
-    169 brushes total
-    1,105 visible sides
-INFO: calculating BSP for 169 brushes with 1105 sides
-      169 brushes
-    1,105 visible faces
-    4,810 nodes
-    3,919 expensive split nodes
+    168 SOLID brushes
+    168 brushes total
+    1,099 visible sides
+INFO: calculating BSP for 168 brushes with 1099 sides
+      168 brushes
+    1,099 visible faces
+    4,745 nodes
+    3,854 expensive split nodes
       891 mid-split nodes
-    4,811 leaves
-    1,804 EMPTY leafs
-    3,007 SOLID leafs
-    4,811 leafs total
+    4,746 leaves
+    1,802 EMPTY leafs
+    2,944 SOLID leafs
+    4,746 leafs total
     36 max tree height
     16 avg tree height
-    151 tiny portals
-    19,473 tree portals
+    147 tiny portals
+    19,240 tree portals
     553 outside leaves
     0 detail filled leafs
-    169 brushes
-    754 visible faces
-    351 non-visible faces
-    2,739 nodes
-      724 non-visible nodes
-    2,739 expensive split nodes
-    2,740 leaves
-      778 EMPTY leafs
-    1,962 SOLID leafs
-    2,740 leafs total
-    53 max tree height
-    23 avg tree height
-    157 tiny portals
-    11,531 tree portals
-    178 outside leaves
+    168 brushes
+    749 visible faces
+    350 non-visible faces
+    2,692 nodes
+      721 non-visible nodes
+    2,692 expensive split nodes
+    2,693 leaves
+      765 EMPTY leafs
+    1,928 SOLID leafs
+    2,693 leafs total
+    57 max tree height
+    25 avg tree height
+    155 tiny portals
+    11,263 tree portals
+    165 outside leaves
     0 detail filled leafs
-    157 tiny portals
-    11,531 tree portals
+    155 tiny portals
+    11,263 tree portals
 WARNING: 2 sides not found (use -verbose to display)
-    2,958 sides visible
-    2,958 makefaces
-    1,127 merged
-    2,071 subdivided
-    1,392 nodes pruned
-    65 tiny portals
+    2,910 sides visible
+    2,910 makefaces
+    1,089 merged
+    1,982 subdivided
+    1,362 nodes pruned
+    64 tiny portals
       600 player-occupiable leaves
       600 clusters of leaves
-    1,722 vis portals
-      748 SOLID leafs
+    1,712 vis portals
+      731 SOLID leafs
       600 EMPTY leafs
-    1,348 leafs total
-    52 max tree height
-    24 avg tree height
-     3,328 edges added by tjunctions
-     3,746 faces optimized through MWT
-    10,772 triangles computed from MWT
-       702 faces created via optimization of MWT triangles
-    10,104 edges
-     4,604 faces
+    1,331 leafs total
+    56 max tree height
+    25 avg tree height
+     3,199 edges added by tjunctions
+     3,638 faces optimized through MWT
+    10,427 triangles computed from MWT
+       695 faces created via optimization of MWT triangles
+    9,832 edges
+    4,498 faces
 Processing hull 1...
 Processing hull 2...
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 329 >= 127)
 Writing thedepths.bsp as Quake BSP bsp29
 Wrote thedepths.bsp
 
 count   lump name    byte size 
-      1 models               64
-   1011 planes            20220
-   5461 vertexes          65532
-   1347 nodes             32328
-    275 texinfos          11000
-   4604 faces             92080
-   1628 clipnodes         13024
-    601 leafs             16828
-   5033 marksurfaces      10066
-  10105 edges             40420
-  20136 surfedges         80544
-      7 textures         109032
+      3 models              192
+   1033 planes            20660
+   5331 vertexes          63972
+   1342 nodes             32208
+    283 texinfos          11320
+   4530 faces             90600
+   1664 clipnodes         13312
+    615 leafs             17220
+   4913 marksurfaces       9826
+   9903 edges             39612
+  19728 surfedges         78912
+      8 textures         130836
         lightdata             0
         visdata               0
-        entdata            5699
+        entdata            6702
 
-1.368s seconds elapsed
+1.346s seconds elapsed
 
 
