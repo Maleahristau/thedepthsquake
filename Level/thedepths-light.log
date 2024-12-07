@@ -3,7 +3,6 @@ LoadBSPFile: 'thedepths.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
-img::ConvertTextures: WARNING: Texture  duplicated
 Loading extended texinfo flags from thedepths.texinfo.json...
 WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \.
 WARNING: thedepths.bsp[line 3]: Unrecognised string escape - \s
@@ -54,7 +53,11 @@ WARNING: entity at (3360 352 224) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 120 232) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 80 96) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 392 64) (light) has empty key/value "delay" ""
-167 entities read, 108 are lights.
+WARNING: entity at (512 456 360) (light) has empty key/value "delay" ""
+WARNING: entity at (520 48 360) (light) has empty key/value "delay" ""
+WARNING: entity at (64 64 360) (light) has empty key/value "delay" ""
+WARNING: entity at (48 456 360) (light) has empty key/value "delay" ""
+203 entities read, 128 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -62,22 +65,24 @@ WARNING: entity at (3360 392 64) (light) has empty key/value "delay" ""
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	4315 solid faces
+	1937 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 108 initial lights
-SetupLights: 108 after surface lights
-SetupLights: 108 after jittering
+SetupLights: 128 initial lights
+SetupLights: 128 after surface lights
+SetupLights: 128 after jittering
 WARNING: couldn't nudge light out of solid at 560 -544 -8
 WARNING: couldn't nudge light out of solid at 2816 272 360
-Final count: 108 lights, 0 suns in use.
+WARNING: couldn't nudge light out of solid at 32 -624 72
+Final count: 128 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 124528
+WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
+lightmap size (total): 156196
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.238s seconds elapsed
+0.145s seconds elapsed
 0 empty lightmaps
 
 
