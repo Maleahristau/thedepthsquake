@@ -23,7 +23,7 @@ WARNING: entity at (1952 248 360) (light) has empty key/value "delay" ""
 WARNING: entity at (2280 240 360) (light) has empty key/value "delay" ""
 WARNING: entity at (2608 264 360) (light) has empty key/value "delay" ""
 WARNING: entity at (2976 264 360) (light) has empty key/value "delay" ""
-WARNING: entity at (128 256 360) (light) has empty key/value "delay" ""
+WARNING: entity at (240 256 360) (light) has empty key/value "delay" ""
 WARNING: entity at (1312 224 360) (light) has empty key/value "delay" ""
 WARNING: entity at (2864 -400 368) (light) has empty key/value "delay" ""
 WARNING: entity at (2888 -136 368) (light) has empty key/value "delay" ""
@@ -53,11 +53,9 @@ WARNING: entity at (3360 352 224) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 120 232) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 80 96) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 392 64) (light) has empty key/value "delay" ""
-WARNING: entity at (512 456 360) (light) has empty key/value "delay" ""
-WARNING: entity at (520 48 360) (light) has empty key/value "delay" ""
 WARNING: entity at (64 64 360) (light) has empty key/value "delay" ""
 WARNING: entity at (48 456 360) (light) has empty key/value "delay" ""
-203 entities read, 128 are lights.
+197 entities read, 122 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -65,24 +63,24 @@ WARNING: entity at (48 456 360) (light) has empty key/value "delay" ""
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	1937 solid faces
+	1947 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 128 initial lights
-SetupLights: 128 after surface lights
-SetupLights: 128 after jittering
+SetupLights: 122 initial lights
+SetupLights: 122 after surface lights
+SetupLights: 122 after jittering
 WARNING: couldn't nudge light out of solid at 560 -544 -8
 WARNING: couldn't nudge light out of solid at 2816 272 360
 WARNING: couldn't nudge light out of solid at 32 -624 72
-Final count: 128 lights, 0 suns in use.
+Final count: 122 lights, 0 suns in use.
 0 surface light points in use.
 WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
-lightmap size (total): 156196
+lightmap size (total): 156688
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.145s seconds elapsed
+0.147s seconds elapsed
 0 empty lightmaps
 
 
