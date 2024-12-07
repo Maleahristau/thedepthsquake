@@ -6,17 +6,17 @@
 LoadBSPFile: 'thedepths.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-   605 leafs
-   605 clusters
-  1711 portals
+   533 leafs
+   533 clusters
+  1539 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 99
+average leafs visible: 106
 c_noclip: 0
-c_chains: 1132950
-visdatasize:27492  compressed from 45980
+c_chains: 1680529
+visdatasize:21800  compressed from 35711
 Writing thedepths.bsp as Quake BSP bsp29
-0.64s elapsed
+0.95s elapsed
 
 

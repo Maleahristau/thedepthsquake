@@ -19,7 +19,42 @@ WARNING: entity at () (worldspawn) has empty key/value "property 4" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 5" ""
 WARNING: brush entity with mins [297 529 17] maxs [535 567 175] (func_door) has empty key/value "targetname" ""
 WARNING: brush entity with mins [3161 -63 17] maxs [3191 567 391] (func_door) has empty key/value "target" ""
-131 entities read, 79 are lights.
+WARNING: entity at (1568 272 360) (light) has empty key/value "delay" ""
+WARNING: entity at (1952 248 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2280 240 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2608 264 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2976 264 360) (light) has empty key/value "delay" ""
+WARNING: entity at (128 256 360) (light) has empty key/value "delay" ""
+WARNING: entity at (1312 224 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2864 -400 368) (light) has empty key/value "delay" ""
+WARNING: entity at (2888 -136 368) (light) has empty key/value "delay" ""
+WARNING: entity at (2872 -568 384) (light) has empty key/value "delay" ""
+WARNING: entity at (448 264 360) (light) has empty key/value "delay" ""
+WARNING: entity at (824 248 360) (light) has empty key/value "delay" ""
+WARNING: entity at (1408 456 360) (light) has empty key/value "delay" ""
+WARNING: entity at (1416 56 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2024 456 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2000 32 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2440 448 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2432 56 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2776 440 360) (light) has empty key/value "delay" ""
+WARNING: entity at (2832 32 360) (light) has empty key/value "delay" ""
+WARNING: entity at (3120 472 360) (light) has empty key/value "delay" ""
+WARNING: entity at (3128 16 360) (light) has empty key/value "delay" ""
+WARNING: entity at (3344 528 24) (light) has empty key/value "delay" ""
+WARNING: entity at (3344 520 120) (light) has empty key/value "delay" ""
+WARNING: entity at (3344 520 208) (light) has empty key/value "delay" ""
+WARNING: entity at (3352 520 328) (light) has empty key/value "delay" ""
+WARNING: entity at (3344 -16 24) (light) has empty key/value "delay" ""
+WARNING: entity at (3336 -16 120) (light) has empty key/value "delay" ""
+WARNING: entity at (3344 -16 232) (light) has empty key/value "delay" ""
+WARNING: entity at (3352 -16 336) (light) has empty key/value "delay" ""
+WARNING: entity at (3360 224 328) (light) has empty key/value "delay" ""
+WARNING: entity at (3360 352 224) (light) has empty key/value "delay" ""
+WARNING: entity at (3360 120 232) (light) has empty key/value "delay" ""
+WARNING: entity at (3360 80 96) (light) has empty key/value "delay" ""
+WARNING: entity at (3360 392 64) (light) has empty key/value "delay" ""
+167 entities read, 108 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -27,23 +62,22 @@ WARNING: brush entity with mins [3161 -63 17] maxs [3191 567 391] (func_door) ha
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	4518 solid faces
+	4315 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 79 initial lights
-SetupLights: 79 after surface lights
-SetupLights: 79 after jittering
+SetupLights: 108 initial lights
+SetupLights: 108 after surface lights
+SetupLights: 108 after jittering
 WARNING: couldn't nudge light out of solid at 560 -544 -8
 WARNING: couldn't nudge light out of solid at 2816 272 360
-WARNING: couldn't nudge light out of solid at 392 -232 112
-Final count: 79 lights, 0 suns in use.
+Final count: 108 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 92704
+lightmap size (total): 124528
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.244s seconds elapsed
+0.238s seconds elapsed
 0 empty lightmaps
 
 

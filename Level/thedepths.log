@@ -14,78 +14,78 @@ WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \q
 WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \p
 WARNING: thedepths-compile.map[line 6]: Unrecognised string escape - \p
 fs::addArchive: WARNING: archive 'C:/Users/Kitte/Desktop/Quake/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-      131 entities
+      167 entities
         8 unique textures
-      393 texinfos
-    1,136 unique planes
+      452 texinfos
+    1,132 unique planes
 
 INFO: world extents calculated to 8392 units
-      171 brushes
-    1,117 sides
-      288 side bevels
+      177 brushes
+    1,133 sides
+      308 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    169 SOLID brushes
-    169 brushes total
-    1,105 visible sides
-INFO: calculating BSP for 169 brushes with 1105 sides
-      169 brushes
-    1,105 visible faces
-    4,775 nodes
-    3,849 expensive split nodes
-      926 mid-split nodes
-    4,776 leaves
-    1,833 EMPTY leafs
-    2,943 SOLID leafs
-    4,776 leafs total
-    36 max tree height
-    17 avg tree height
-    156 tiny portals
-    18,996 tree portals
-    555 outside leaves
+    175 SOLID brushes
+    175 brushes total
+    1,121 visible sides
+INFO: calculating BSP for 175 brushes with 1121 sides
+      175 brushes
+    1,121 visible faces
+    4,574 nodes
+    3,670 expensive split nodes
+      904 mid-split nodes
+    4,575 leaves
+    1,798 EMPTY leafs
+    2,777 SOLID leafs
+    4,575 leafs total
+    35 max tree height
+    16 avg tree height
+    157 tiny portals
+    18,134 tree portals
+    537 outside leaves
     0 detail filled leafs
-    169 brushes
-    762 visible faces
-    343 non-visible faces
-    2,712 nodes
-      712 non-visible nodes
-    2,712 expensive split nodes
-    2,713 leaves
-      770 EMPTY leafs
-    1,943 SOLID leafs
-    2,713 leafs total
-    57 max tree height
-    24 avg tree height
-    167 tiny portals
-    11,297 tree portals
-    165 outside leaves
+    175 brushes
+    764 visible faces
+    357 non-visible faces
+    2,493 nodes
+      717 non-visible nodes
+    2,493 expensive split nodes
+    2,494 leaves
+      724 EMPTY leafs
+    1,770 SOLID leafs
+    2,494 leafs total
+    54 max tree height
+    21 avg tree height
+    170 tiny portals
+    10,489 tree portals
+    191 outside leaves
     0 detail filled leafs
-    167 tiny portals
-    11,297 tree portals
+    170 tiny portals
+    10,489 tree portals
 WARNING: 2 sides not found (use -verbose to display)
-    2,926 sides visible
-    2,926 makefaces
-    1,085 merged
-    1,974 subdivided
-    1,361 nodes pruned
-    71 tiny portals
-      605 player-occupiable leaves
-      605 clusters of leaves
-    1,711 vis portals
-      747 SOLID leafs
-      605 EMPTY leafs
-    1,352 leafs total
-    56 max tree height
-    25 avg tree height
-     3,209 edges added by tjunctions
-     3,650 faces optimized through MWT
-    10,464 triangles computed from MWT
-       703 faces created via optimization of MWT triangles
-    9,873 edges
-    4,518 faces
+    2,745 sides visible
+    2,745 makefaces
+    1,126 merged
+    2,046 subdivided
+    1,294 nodes pruned
+    74 tiny portals
+      533 player-occupiable leaves
+      533 clusters of leaves
+    1,539 vis portals
+      667 SOLID leafs
+      533 EMPTY leafs
+    1,200 leafs total
+    53 max tree height
+    21 avg tree height
+     2,938 edges added by tjunctions
+     3,565 faces optimized through MWT
+    10,081 triangles computed from MWT
+       650 faces created via optimization of MWT triangles
+    9,465 edges
+    4,315 faces
 Processing hull 1...
 Processing hull 2...
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 329 >= 127)
@@ -94,21 +94,21 @@ Wrote thedepths.bsp
 
 count   lump name    byte size 
       3 models              192
-   1038 planes            20760
-   5337 vertexes          64044
-   1363 nodes             32712
-    294 texinfos          11760
-   4546 faces             90920
-   1650 clipnodes         13200
-    620 leafs             17360
-   4886 marksurfaces       9772
-   9934 edges             39736
-  19785 surfedges         79140
+   1053 planes            21060
+   5093 vertexes          61116
+   1211 nodes             29064
+    341 texinfos          13640
+   4343 faces             86860
+   1829 clipnodes         14632
+    548 leafs             15344
+   4814 marksurfaces       9628
+   9526 edges             38104
+  18931 surfedges         75724
       8 textures         130836
         lightdata             0
         visdata               0
-        entdata            7315
+        entdata           10046
 
-1.047s seconds elapsed
+1.091s seconds elapsed
 
 
