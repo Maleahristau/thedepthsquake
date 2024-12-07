@@ -17,9 +17,9 @@ WARNING: entity at () (worldspawn) has empty key/value "property 2" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 3" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 4" ""
 WARNING: entity at () (worldspawn) has empty key/value "property 5" ""
-WARNING: brush entity with mins [289 529 17] maxs [543 567 183] (func_door) has empty key/value "targetname" ""
+WARNING: brush entity with mins [297 529 17] maxs [535 567 175] (func_door) has empty key/value "targetname" ""
 WARNING: brush entity with mins [3161 -63 17] maxs [3191 567 391] (func_door) has empty key/value "target" ""
-120 entities read, 72 are lights.
+131 entities read, 79 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -27,21 +27,23 @@ WARNING: brush entity with mins [3161 -63 17] maxs [3191 567 391] (func_door) ha
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	4498 solid faces
+	4518 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 72 initial lights
-SetupLights: 72 after surface lights
-SetupLights: 72 after jittering
+SetupLights: 79 initial lights
+SetupLights: 79 after surface lights
+SetupLights: 79 after jittering
+WARNING: couldn't nudge light out of solid at 560 -544 -8
 WARNING: couldn't nudge light out of solid at 2816 272 360
-Final count: 72 lights, 0 suns in use.
+WARNING: couldn't nudge light out of solid at 392 -232 112
+Final count: 79 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 93068
+lightmap size (total): 92704
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.240s seconds elapsed
+0.244s seconds elapsed
 0 empty lightmaps
 
 
