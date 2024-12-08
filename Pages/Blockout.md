@@ -1,5 +1,4 @@
 # Blockout!
-![alt text](thedepthsquake/Images/FirstRoomFirstLayout.png "Blockout Version of Single-PLayer Quake Map")
 
 ## Focus
 For this Blockout I wanted players to find themselves in an abandoned facility covered in disgarded trailers and over run with junk everywhere. 
