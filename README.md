@@ -1,6 +1,6 @@
 # The Depths 
-#### Quake Single-PLayer Map
-
+#### Quake Single-Player Map
+![alt text](https://github.com/Maleahristau/thedepthsquake/blob/main/Images/thedepths_2024-12-11_22-17-35.png "Secuirty Room Textured and Lit")
 ## Progress Journal 
 
 1.[Preproduction](Pages/Preproduction.md "Preproduction Page")
