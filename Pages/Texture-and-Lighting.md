@@ -1,15 +1,16 @@
 # Texture & Lighting
 
-## Immersion and theme
+## Guidance and orientation
 
-![alt text]( "Main Area of Map")
+![alt text](https://github.com/Maleahristau/thedepthsquake/blob/main/Images/SecurityLayoutFirst.png "Security Room Before")
+![alt text](https://github.com/Maleahristau/thedepthsquake/blob/main/Images/SecurityLayoutSecond.png "Security Room After")
 
 
-For this level I wanted it to fit the name, "Phantom of the Abyss" the idea being players stubble apon this huge ghost girl's tomb that seems to be nowhere. 
-The side rooms are the vents of energy the girl is giving off and of course the main room is her in herself. For the player, that means the main room has a more blue undertone the ghostly hue on everything, whereas the side rooms are warm and red.
+For this level I wanted it to fit the place, an abandoned train warehouse. The idea being players stubble apon this huge building covered in thrown around storage containers and poor lighting. 
+The side rooms are locker rooms, old security rooms and the overlook all covered in men who are slower more and more demonic a sort of slow realization of why the location is in such disaray.
 As well as the second floor in all of the side rooms have different roof textures to softly tell the story of the Phantom!
 
-## Guidance and orientation
+## Immersion and theme
 
 ![alt text]( "Side Area of Map")
 
