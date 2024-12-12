@@ -55,7 +55,7 @@ WARNING: entity at (3360 80 96) (light) has empty key/value "delay" ""
 WARNING: entity at (3360 392 64) (light) has empty key/value "delay" ""
 WARNING: entity at (64 64 360) (light) has empty key/value "delay" ""
 WARNING: entity at (48 456 360) (light) has empty key/value "delay" ""
-197 entities read, 122 are lights.
+199 entities read, 122 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -63,7 +63,7 @@ WARNING: entity at (48 456 360) (light) has empty key/value "delay" ""
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	1947 solid faces
+	1979 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 122 initial lights
@@ -75,12 +75,13 @@ WARNING: couldn't nudge light out of solid at 32 -624 72
 Final count: 122 lights, 0 suns in use.
 0 surface light points in use.
 WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
-lightmap size (total): 156688
+WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
+lightmap size (total): 141080
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing thedepths.bsp as Quake BSP bsp29
-0.147s seconds elapsed
+0.264s seconds elapsed
 0 empty lightmaps
 
 
